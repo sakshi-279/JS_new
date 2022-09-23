@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+        
+        #b1
+        {
+            height: 200px;
+            width: 200px;
+            border: 2px solid;
+            background-color: yellow;
+            
+        }
+        #b2
+        {
+            height: 200px;
+            width: 200px;
+            border: 1px solid;
+            background-color: aqua;
+            
+        }
+      </style>
+
+        <script>
+            // js internal
+           function swap()
+           {
+            //console.log('function is running');
+            var b1=document.getElementById('b1');
+            var b2=document.getElementById('b2');
+            
+            var tmp;
+            tmp = b1.innerHTML;
+            b1.innerHTML = b2.innerHTML;
+            b2.innerHTML = tmp;
+
+            }
+        </script>
+
+    </head>
+    <body>
+        
+        <div id="b1">
+            <h1>HYY</h1>
+        </div>
+
+        <button onclick="swap();" style="color: ;blue:">Swap</button>
+
+
+        <div id="b2">
+            <h1>HELLO sakshi</h1>
+        </div>
+    
+    </body>
+</html>

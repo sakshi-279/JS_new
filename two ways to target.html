@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <script>
+            //internal js:
+
+            function setkro()
+            {
+              //  console.log('hhhhhh');
+              //isme baar baar function ko call krna pdta h
+             console.log(document.getElementById(tb_1).value);
+             console.log(document.getElementById(tb_1).classname);
+             console.log(document.getElementById(tb_1).id);
+             console.log(document.getElementById(tb_1).type);
+             console.log(document.getElementById(tb_1).name);
+
+              //isme baar baar call nhi krna pdta ek baar call krke hi sari values de di jati h.
+             console.log('Variable wala syntax')
+             var tb=document.getElementById('tb_1')
+             console.log(tb.value);
+             console.log(tb.classname);
+             console.log(tb.id);
+             console.log(tb.type);
+             console.log(tb.name);
+            }
+
+           
+            
+        </script>
+        
+   </head>
+            <body>
+                <input type="text" id="tb_1" value=""/>
+                <br>
+                <input type="text" id="tb_2" value=""/>
+                <br>
+        
+                <button onclick="setkro();">Set Karo</button>
+                
+            </body>
+    
+                
+                   
+</html>

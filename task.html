@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+        .outer
+        {
+            min-height: 1000px;
+            min-width: 1000px;
+
+        }
+        #b1
+        {
+            height: 300px;
+            width: 300px;
+            border: 1px solid;
+            background-color: yellow;
+            float: left;
+        }
+        #b2
+        {
+            height: 300px;
+            width: 300px;
+            border: 1px solid;
+            background-color: aqua;
+            float: right;
+        }
+      </style>
+        <script>
+            // js internal
+           function swap()
+           {
+            //console.log('function is running');
+            var box1=document.getElementById('b1');
+            console.log(b1.innerHTML);
+
+            var box2=document.getElementById('b2');
+            console.log(b2.innerHTML);
+
+            
+
+           }
+        </script>
+
+    </head>
+    <body>
+        <div class="outer">
+        <div id="b1">
+            <h1>HYY</h1>
+        </div>
+
+        <button onclick="swap" align="center">Swap</button>
+
+
+        <div id="b2">
+            <h1>HELLO</h1>
+        </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            // js internal
+           function multiply()
+           {
+            //console.log('fkjehf');
+            document.getElementById('tb_1');
+            document.getElementById('tb_2');
+            document.getElementById('tb_3');
+
+            tb_3.value=tb_1.value*tb_2.value
+            
+
+           }
+           function subtract()
+           {
+            //console.log('fkjehf');
+            document.getElementById('tb_1');
+            document.getElementById('tb_2');
+            document.getElementById('tb_3');
+
+            tb_3.value=tb_1.value-tb_2.value
+            
+
+           }
+           function division()
+           {
+            //console.log('fkjehf');
+            document.getElementById('tb_1');
+            document.getElementById('tb_2');
+            document.getElementById('tb_3');
+
+            tb_3.value=tb_1.value/tb_2.value
+            
+           }
+           function addition()
+           {
+            
+            var a=document.getElementById('tb_1');
+            var b=document.getElementById('tb_2');
+            document.getElementById('tb_3');
+              //a^2-b^2=(a+b)*(a-b)
+              //(a+b)=(a*a)-(b*b)/(a-b)
+              tb_3.value={(a*a)-(b*b)}/(a-b)
+            
+            
+           }
+          
+        </script>
+
+    </head>
+    <body>
+        <input type="text" id="tb_1" value="" placeholder="Enter value 1"><br>
+        <input type="text" id="tb_2" value="" placeholder="Enter value 2"><br>
+        <input type="text" id="tb_3" value="Result"><br>
+
+
+
+        <button onclick="multiply()">Multiply(*)</button><br>
+        <button onclick="subtract()">Minus(-)</button><br>
+        <button onclick="division()">Division(/)</button><br>
+        <button onclick="addition()">addition(+)</button>
+        
+    </body>
+</html>

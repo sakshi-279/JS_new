@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            // js internal
+            function inner()
+
+            {
+               // console.log('working');
+               var para= document.getElementById('para');
+               console.log(para.innerText);
+            }
+            function html()
+
+           {
+             // console.log('working');
+             var para= document.getElementById('para');
+             console.log(para.innerHTML);
+           }
+           
+        </script>
+
+    </head>
+    <body>
+        <h1>Difference betweeen innerHTML and innerText</h1>
+
+        <p id="para"> 
+            <b>
+                <u>Some value</u>
+            </b>
+        </p>
+        <button onclick="inner();">innerText</button>
+        <button onclick="html();">innerHTML</button>
+    </body>
+</html>
